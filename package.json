@@ -1,0 +1,31 @@
+{
+  "name": "task-tracker",
+  "version": "0.0.0",
+  "description": "trello clone (using express)",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/index",
+    "dev": "nodemon src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raysadmoncler/task-tracker.git"
+  },
+  "author": "jonathan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raysadmoncler/task-tracker/issues"
+  },
+  "homepage": "https://github.com/raysadmoncler/task-tracker#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.2",
+    "nodemon": "^3.1.10",
+    "prettier": "^3.5.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
